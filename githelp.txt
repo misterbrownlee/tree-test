@@ -1,0 +1,4 @@
+git remote add -f substuff git@github.com:tehfoo/substuff.git
+git subtree add --prefix substuff substuff master
+git fetch substuff master
+git subtree pull --prefix stubstuff substuff master
